@@ -10,10 +10,12 @@ TEMPLATE = app
 SOURCES += main.cpp \
     datalayer.cpp \
     domainlayer.cpp \
-    replayer.cpp
+    replayer.cpp \
+    person.cpp
 
 HEADERS += \
     datalayer.h \
     domainlayer.h \
-    replayer.h
+    replayer.h \
+    person.h
 

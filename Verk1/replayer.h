@@ -3,21 +3,15 @@
 
 #include <iostream>
 #include<list>
+#include "person.h";
 using namespace std;
-struct Person
-{
-    string name;
-    string gender;
-    int birthyear;
-    int deathyear;
 
-};
 class RepLayer
 {
 public:
     RepLayer();
-    void printList(list<Person> personList);
-    Person addPerson();
+    void printList();
+
 };
 
 #endif // REPLAYER_H
