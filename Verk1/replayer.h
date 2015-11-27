@@ -10,7 +10,7 @@ class RepLayer
 {
 public:
     RepLayer();
-    void printList();
+    void printList(list <Person> personList);
 
 };
 
